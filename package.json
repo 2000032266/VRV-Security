@@ -1,6 +1,5 @@
 {
   "homepage": "https://2000032266.github.io/VRV-Security",
-
   "name": "rbac-admin-dashboard",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +13,8 @@
     "react-router-dom": "^7.0.1",
     "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4",
-    "webpack": "^4.42.0"
+    "webpack": "^4.19.1",
+    "webpack-dev-server": "^3.1.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "start:legacy": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
