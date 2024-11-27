@@ -7,6 +7,9 @@
 
 # testing
 /coverage
+# Ignore everything except the build folder
+/*
+!/build
 
 # production
 /build
